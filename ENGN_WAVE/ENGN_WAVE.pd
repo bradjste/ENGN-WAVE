@@ -1,0 +1,36 @@
+#N canvas 586 173 692 427 10;
+#X obj 26 19 cnv 15 638 388 empty empty empty 20 12 0 14 -245500 -66577
+0;
+#X obj 25 158 engineBlock;
+#X obj 255 18 engineGUI;
+#X obj 28 18 hsl 225 140 0 127 0 0 xx logo ENGN//WAVE 17 72 0 31 -1
+-1 -258111 0 0;
+#N canvas 0 50 450 250 (subpatch) 0;
+#X array D 2 float 1;
+#A 0 0 2.13;
+#X coords 0 4 1 0 29 23 1 0 0;
+#X restore 619 326 graph;
+#N canvas 0 50 450 250 (subpatch) 0;
+#X array C 2 float 1;
+#A 0 0 1.6;
+#X coords 0 4 1 0 29 23 1 0 0;
+#X restore 459 326 graph;
+#N canvas 0 50 450 250 (subpatch) 0;
+#X array B 2 float 1;
+#A 0 0 1.33;
+#X coords 0 4 1 0 29 23 1 0 0;
+#X restore 299 326 graph;
+#N canvas 0 50 450 250 (subpatch) 0;
+#X array A 2 float 1;
+#A 0 0 1;
+#X coords 0 4 1 0 29 23 1 0 0;
+#X restore 139 326 graph;
+#X obj 185 308 piston;
+#X obj 25 308 piston;
+#X obj 345 308 piston;
+#X obj 505 308 piston;
+#X connect 1 0 9 0;
+#X connect 1 1 8 0;
+#X connect 1 2 10 0;
+#X connect 1 3 11 0;
+#X coords 0 -1 1 1 642 392 2 24 17;
